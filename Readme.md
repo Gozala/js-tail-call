@@ -76,7 +76,7 @@ var bar = function(x, y) {
 }
 ```
 
-## Install ##
+## Install
 
     npm install tail-call
 
