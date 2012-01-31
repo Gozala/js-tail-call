@@ -1,5 +1,8 @@
 # tail-call
 
+[![Build Status](https://secure.travis-ci.org/Gozala/js-tail-call.png)](http://travis-ci.org/Gozala/js-tail-call)
+
+
 Unfortunately does not has [tail call] optimization (a.k.a tail recursion),
 technique often used in functional languages. Recursions usually are way more
 expressive than imperative loops for iterative calculations and they helps
