@@ -1,0 +1,32 @@
+{
+  "name": "tail-call",
+  "id": "tail-call",
+  "version": "0.0.1",
+  "description": "JS tail recursion shim through trampolining",
+  "keywords": [ "tail-call" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/js-tail-call",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/js-tail-call.git",
+    "web": "https://github.com/Gozala/js-tail-call"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/js-tail-call/issues/"
+  },
+  "devDependencies": {
+    "test": ">=0.4.4",
+    "repl-utils": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.4.x"
+  },
+  "scripts": {
+    "test": "node tests/test-all.js",
+    "repl": "node node_modules/repl-utils"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "http://jeditoolkit.com/LICENSE"
+  }]
+}
